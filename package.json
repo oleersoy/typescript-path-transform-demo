@@ -10,15 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/oleersoy/typescript-path-transform-demo.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["typescript-path-transform", "transform", "paths", "typescript", "node", "npm"],
+  "author": "Ole Ersoy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/oleersoy/typescript-path-transform-demo/issues"
   },
   "homepage": "https://github.com/oleersoy/typescript-path-transform-demo#readme",
   "dependencies": {
-    "@fireflysemantics/service-parts-business-ts": "file:../service-parts-business-ts",
     "@types/papaparse": "^4.5.9",
     "papaparse": "^5.0.0"
   },
