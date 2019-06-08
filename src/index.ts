@@ -1,7 +1,9 @@
-import {sum} from '@fs/sum';
+export {sum} from '@fs/sum';
 
-console.log(sum(2,3));
 
+/**
+ * Some class that will get a .d.ts type definition generated.
+ */
 export class SomeClass {
     
     constructor( public firstName: String) {

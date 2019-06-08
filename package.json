@@ -2,7 +2,7 @@
   "name": "typescript-path-transform-demo",
   "version": "1.0.0",
   "description": "typescript-transform-paths Demo",
-  "main": "index.js",
+  "main": "target/index.js",
   "scripts": {
     "compile": "del-cli target && ttsc"
   },
