@@ -1,6 +1,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
-var sum_1 = require("./sum");
-console.log(sum_1.sum(2, 3));
+var sum_1 = require("@fs/sum");
+exports.sum = sum_1.sum;
+/**
+ * Some class that will get a .d.ts type definition generated.
+ */
 var SomeClass = /** @class */ (function () {
     function SomeClass(firstName) {
         this.firstName = firstName;
