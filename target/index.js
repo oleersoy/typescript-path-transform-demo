@@ -1,5 +1,5 @@
 Object.defineProperty(exports, "__esModule", { value: true });
-var sum_1 = require("@fs/sum");
+var sum_1 = require("./sum");
 exports.sum = sum_1.sum;
 /**
  * Some class that will get a .d.ts type definition generated.
