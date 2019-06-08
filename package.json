@@ -1,0 +1,36 @@
+{
+  "name": "typescript-path-transform-demo",
+  "version": "1.0.0",
+  "description": "typescript-transform-paths Demo",
+  "main": "index.js",
+  "scripts": {
+    "compile": "del-cli target && ttsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleersoy/typescript-path-transform-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleersoy/typescript-path-transform-demo/issues"
+  },
+  "homepage": "https://github.com/oleersoy/typescript-path-transform-demo#readme",
+  "dependencies": {
+    "@fireflysemantics/service-parts-business-ts": "file:../service-parts-business-ts",
+    "@types/papaparse": "^4.5.9",
+    "papaparse": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "@types/node": "^12.0.5",
+    "del-cli": "^2.0.0",
+    "jest": "^24.8.0",
+    "npm-check-updates": "^3.1.10",
+    "ts-jest": "^24.0.2",
+    "ttypescript": "^1.5.7",
+    "typescript": "^3.5.1",
+    "typescript-transform-paths": "^1.1.3"
+  }
+}
